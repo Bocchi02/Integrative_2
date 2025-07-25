@@ -1,12 +1,4 @@
-let passengers = [
-  { name: "Denzel", age: 22, fare: 50 },
-  { name: "Gab", age: 18, fare: 40 },
-  { name: "Matt", age: 35, fare: 60 },
-  { name: "Holee", age: 64, fare: 30 },
-  { name: "Shees", age: 10, fare: 12 },
-  { name: "Gray", age: 5, fare: 50 },
-  { name: "Jison", age: 75, fare: 25 },
-];
+let passengers = [];
 
 function calculateFare(age, fare) {
   if (age >= 0 && age <= 5) {
