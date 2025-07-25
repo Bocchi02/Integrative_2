@@ -12,7 +12,7 @@ function createAccount(name, initialBalance) {
 }
 
 function deposit(name, amount) {
-  if (account <= 0) {
+  if (amount <= 0) {
     console.log("Deposit amount must be greater than zero.");
     return;
   }

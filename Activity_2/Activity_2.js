@@ -1,14 +1,4 @@
-let rides = [
-  { fare: 120, distance: 40, time: "12:30" },
-  { fare: 150, distance: 50, time: "13:00" },
-  { fare: 200, distance: 60, time: "13:30" },
-  { fare: 180, distance: 55, time: "14:00" },
-  { fare: 220, distance: 70, time: "14:30" },
-  { fare: 170, distance: 65, time: "15:00" },
-  { fare: 190, distance: 75, time: "15:30" },
-  { fare: 210, distance: 80, time: "16:00" },
-  { fare: 230, distance: 85, time: "16:30" },
-];
+let rides = [];
 
 function getTotalEarnings(rides) {
   let total = 0;
